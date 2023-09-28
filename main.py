@@ -9,7 +9,19 @@ import datetime
 import wikipedia
 # to get data from wikipedia
 import pyjokes
-# to get jokes#     engine.say(text)
+# to get jokes
+
+import pyaudio
+import nltk
+
+# listener =sr.Recognizer()
+# engine =pyttsx3.init()
+# voices = engine.getProperty('voices')
+# engine.setProperty('voice', voices[1].id)
+
+
+# def talk(text):
+#     engine.say(text)
 #     engine.runAndwait()
 
 recognizer =sr.Recognizer()
